@@ -1,0 +1,23 @@
+{
+  "title": "end convert",
+  "rules": [
+    {
+      "description": "end to command + right",
+      "manipulators": [
+        { "type": "basic",
+          "from": {
+            "key_code": "end"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
